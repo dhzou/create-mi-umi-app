@@ -1,0 +1,31 @@
+{
+  "name": "create-umi-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "create-mi-umi-app": "bin/umi-app-cli.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "chalk": "latest",
+    "commander": "latest",
+    "download-git-repo": "^1.1.0",
+    "glob": "latest",
+    "handlebars": "^4.1.0",
+    "inquirer": "^6.2.2",
+    "latest-version": "^4.0.0",
+    "log-symbols": "latest",
+    "metalsmith": "^2.3.0",
+    "ora": "^3.1.0",
+    "rimraf": "^2.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zoudonghui@xiaomi.com",
+  "license": "ISC"
+}
