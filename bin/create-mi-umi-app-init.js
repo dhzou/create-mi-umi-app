@@ -107,7 +107,7 @@ if (list.length) {  // 如果当前目录不为空
       return generator(context,projectName,projectName);
     }).then(context => {
       console.log(logSymbols.success, chalk.green('创建成功:'));
-      console.log(chalk.green('cd ' + projectName + '\nnpm install\nnpm run dev'))
+      console.log(chalk.green('cd ' + projectName + '\nnpm install\nnpm run start'))
     }).catch(err => {
       console.error(logSymbols.error, chalk.red(`创建失败：${err.message}`))
     })
